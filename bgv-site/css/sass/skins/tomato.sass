@@ -1,0 +1,53 @@
+@import "../bourbon/bourbon"
+
+$logoColor : #EB7A1D
+$descHeaderColor : #fff
+$colorSearchBlock : #7093E3
+$itemTxtColor : #fff
+$buttonColor : lightblue
+$colorBlockItems : #F9AC6C
+$colorBlockFooter : #7093E3
+$ratingFilm : orange
+$selfDark : #A64B00
+$selfDarkColorText: white
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+
+.logo-text
+	color: $logoColor
+
+header
+	letter-spacing: 2px
+	h1
+		color: $descHeaderColor
+.search
+	background: $colorSearchBlock
+.port-item-cont
+	h3
+		color: $itemTxtColor
+	a
+		border-color: $buttonColor
+		color: $buttonColor
+		&:hover
+			background-color: $buttonColor
+			color: white
+.block-items
+	background-color: $colorBlockItems
+
+footer
+	background-color: $colorBlockFooter
+
+.block-item-one
+	background-color: $colorBlockItems
+
+.rating-film
+	background-color: $ratingFilm
+svg
+	fill: $logoColor
+.nameBloger
+	color: $logoColor
+
+.self-dark 
+	background-color: $selfDark
+	color: $selfDarkColorText

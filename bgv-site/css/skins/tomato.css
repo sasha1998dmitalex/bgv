@@ -1,0 +1,42 @@
+.logo-text {
+  color: #EB7A1D; }
+
+header {
+  letter-spacing: 2px; }
+  header h1 {
+    color: #fff; }
+
+.search {
+  background: #7093E3; }
+
+.port-item-cont h3 {
+  color: #fff; }
+
+.port-item-cont a {
+  border-color: lightblue;
+  color: lightblue; }
+  .port-item-cont a:hover {
+    background-color: lightblue;
+    color: white; }
+
+.block-items {
+  background-color: #F9AC6C; }
+
+footer {
+  background-color: #7093E3; }
+
+.block-item-one {
+  background-color: #F9AC6C; }
+
+.rating-film {
+  background-color: orange; }
+
+svg {
+  fill: #EB7A1D; }
+
+.nameBloger {
+  color: #EB7A1D; }
+
+.self-dark {
+  background-color: #A64B00;
+  color: white; }
